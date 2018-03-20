@@ -1,0 +1,9 @@
+[package]
+name = "trionix"
+version = "0.1.0"
+authors = ["trionprog <trionprog@gmail.com>"]
+
+[dependencies]
+failure = "0.1.1"
+failure_derive = "0.1.1"
+object_pool = { path = "../object_pool" }
